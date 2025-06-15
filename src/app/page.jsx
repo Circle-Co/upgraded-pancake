@@ -2,7 +2,7 @@
 
 export default function HomePage() {
   return (
-    <div className="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden" style='font-family: Manrope, "Noto Sans", sans-serif;'>
+    <div className="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden" style={{ fontFamily: 'Manrope, "Noto Sans", sans-serif' }}>
       <div className="layout-container flex h-full grow flex-col">
         <header className="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf3] px-10 py-3">
           <div className="flex items-center gap-4 text-[#0e151b]">
@@ -43,7 +43,7 @@ export default function HomePage() {
               <div className="@[480px]:p-4">
                 <div
                   className="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-center justify-center p-4"
-                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBTUONQiSquztjtfFsuqQISafYEP1g048AH5tQtLMo1uOYqgfePrvQGV2pvpGECaaoxWrvc_xNR5kYniofUH4RYxHsSFcrGBYz9R211BOsc3SHhfc7aQmq27u377CwG3cGJBO3wqypbDF89mUTlRRsVXYgRktzz1lz6QEzrmdN2TJNBNB1TqRg-VVZzVreQLKWKTp9SGu_tatpuSQRwgwnj_5NuAKj3GN-LrR10N0xrQt2pzNUEUBUSIE12pA5VqvdbrNwh6RPo2n8");'
+                  style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBTUONQiSquztjtfFsuqQISafYEP1g048AH5tQtLMo1uOYqgfePrvQGV2pvpGECaaoxWrvc_xNR5kYniofUH4RYxHsSFcrGBYz9R211BOsc3SHhfc7aQmq27u377CwG3cGJBO3wqypbDF89mUTlRRsVXYgRktzz1lz6QEzrmdN2TJNBNB1TqRg-VVZzVreQLKWKTp9SGu_tatpuSQRwgwnj_5NuAKj3GN-LrR10N0xrQt2pzNUEUBUSIE12pA5VqvdbrNwh6RPo2n8")' }}
                 >
                   <div className="flex flex-col gap-2 text-center">
                     <h1
@@ -79,7 +79,7 @@ export default function HomePage() {
                 <div className="flex flex-col gap-3 pb-3">
                   <div
                     className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg"
-                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCVMP1aDjr0dvRexSkXAO9mYSiwrWljOEDthI6T1DEipIoyXJwXRjiXjuXaEnUMHuCtATF8MOh9kvcqwx2H4MoS5ojNsBEyAsNJI48bq-ONUdE6VF2kF2aeYw3vjlPhMZESwXo_1mMtIMODWlukdcGZVqqsiizlGg6Z01rwBTBmsTKTz70hM6xTjuVkKS7SRqmm4GjEl9Y8nVUhKenTb_NYA-uVD-cpLwx4ui9mHxVA0lmRBEuWxdlScTW4TWQjTuhK4qo_wa6r8u4");'
+                                        style={{ backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuCVMP1aDjr0dvRexSkXAO9mYSiwrWljOEDthI6T1DEipIoyXJwXRjiXjuXaEnUMHuCtATF8MOh9kvcqwx2H4MoS5ojNsBEyAsNJI48bq-ONUdE6VF2kF2aeYw3vjlPhMZESwXo_1mMtIMODWlukdcGZVqqsiizlGg6Z01rwBTBmsTKTz70hM6xTjuVkKS7SRqmm4GjEl9Y8nVUhKenTb_NYA-uVD-cpLwx4ui9mHxVA0lmRBEuWxdlScTW4TWQjTuhK4qo_wa6r8u4")' }}
                   ></div>
                   <div>
                     <p className="text-[#0e151b] text-base font-medium leading-normal">Modern &amp; professional</p>
@@ -89,7 +89,7 @@ export default function HomePage() {
                 <div className="flex flex-col gap-3 pb-3">
                   <div
                     className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg"
-                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA3hXav5FLV5puhWC2qSvJbRDpZ_NRrlahoLFTMH0Q9gW8CQXv9H5hgCxpuTFhUS8XqZN03dyb3cuIAklAp9ZH4e6Zd4Dg_bKQn60QlRxSVZAI7RjZDNaAplykC6INUsgW-HXFc9e4bloR-KHbyYLxXTd4mV5ueCyYPSnjtSHRXmPApvD48OdAxgYEmuNZtqrJyj40k_wA4Z3-vZENAYnt1s74wzAxtT0QTXUVCNspj08Znd-KkndWAxF1-DrpyQg4ivIfa8xVSLXY");'
+                    style={{ backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuA3hXav5FLV5puhWC2qSvJbRDpZ_NRrlahoLFTMH0Q9gW8CQXv9H5hgCxpuTFhUS8XqZN03dyb3cuIAklAp9ZH4e6Zd4Dg_bKQn60QlRxSVZAI7RjZDNaAplykC6INUsgW-HXFc9e4bloR-KHbyYLxXTd4mV5ueCyYPSnjtSHRXmPApvD48OdAxgYEmuNZtqrJyj40k_wA4Z3-vZENAYnt1s74wzAxtT0QTXUVCNspj08Znd-KkndWAxF1-DrpyQg4ivIfa8xVSLXY")' }}
                   ></div>
                   <div>
                     <p className="text-[#0e151b] text-base font-medium leading-normal">Easy to customize</p>
@@ -99,7 +99,7 @@ export default function HomePage() {
                 <div className="flex flex-col gap-3 pb-3">
                   <div
                     className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg"
-                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDxrwHoGhG2SepjcD_D6BVDGq32FqLgUZ1kP34feIm1exDSw5pSAV5RdkSAq8NW7ITSbKg1fHyNHEB2fPJBkmNByFiaW8kSGup_N7MrHzwALk3X1bjDKDMnnAdWF-3smdF5Dc_anD9_fLITaBpHow17kH48TwwLHnNCNLqLr2khKwk_OOc2NVXszygVRgnddNUeJMvMtMPxGOoCnbjknwuiSdP5QMpqURaq2q0OLjQ2kHFgShPhs_h1NtWN1p4N4anRuezi9uusNVs");'
+                                        style={{ backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuDxrwHoGhG2SepjcD_D6BVDGq32FqLgUZ1kP34feIm1exDSw5pSAV5RdkSAq8NW7ITSbKg1fHyNHEB2fPJBkmNByFiaW8kSGup_N7MrHzwALk3X1bjDKDMnnAdWF-3smdF5Dc_anD9_fLITaBpHow17kH48TwwLHnNCNLqLr2khKwk_OOc2NVXszygVRgnddNUeJMvMtMPxGOoCnbjknwuiSdP5QMpqURaq2q0OLjQ2kHFgShPhs_h1NtWN1p4N4anRuezi9uusNVs")' }}
                   ></div>
                   <div>
                     <p className="text-[#0e151b] text-base font-medium leading-normal">Mobile-responsive</p>
