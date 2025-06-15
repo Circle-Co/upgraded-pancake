@@ -1,6 +1,7 @@
 export default function ThemePage() {
   return (
-    <div className="flex flex-col min-h-screen items-start relative bg-white">
+    <>
+      <div className="flex flex-col min-h-screen items-start relative bg-white">
       <div className="flex flex-col min-h-[800px] items-start relative flex-1 self-stretch w-full grow bg-[#f7f9fc]">
         <div className="flex flex-col items-start relative flex-1 self-stretch w-full grow">
           <div className="flex items-start justify-center gap-1 px-6 py-5 relative flex-1 self-stretch w-full grow">
@@ -255,6 +256,7 @@ export default function ThemePage() {
       <a href="/" className="bg-[#e8edf2] rounded-xl px-4 py-2 font-bold">Back</a>
       <a href="/design" className="bg-[#b2cce5] rounded-xl px-4 py-2 font-bold">Next</a>
     </div>
+    </>
   );
 }
 
