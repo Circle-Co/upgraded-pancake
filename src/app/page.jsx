@@ -1,3 +1,5 @@
+'use client';
+
 export default function HomePage() {
   return (
     <div className="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden" style='font-family: Manrope, "Noto Sans", sans-serif;'>
